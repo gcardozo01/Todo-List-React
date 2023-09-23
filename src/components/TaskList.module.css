@@ -1,0 +1,38 @@
+.task {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.details {
+  text-align: left;
+}
+
+.details h4 {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.actions i {
+  background-color: #282c34;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  padding: 0.4em;
+  transition: 0.5s;
+}
+
+.actions i:hover {
+  color: #61dafb;
+}
